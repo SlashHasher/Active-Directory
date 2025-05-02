@@ -1,16 +1,16 @@
-<h1> 🔗 Configure Secure Passwords and SSH – Cisco Packet Tracer </h1>
+<h1> 🖥️ Active Directory – Splunk, Slack, and Shuffle </h1>
 
  
 
 <h2>Description</h2>
-Cisco Packet Tracer - WORK IN PROGRESS
+Active Directory - WORK IN PROGRESS
 <br />
 
 
 <h2>Utilities Used</h2>
 
-- <b>Cisco Packet Tracer</b> 
-- <b>SSH</b>
+- <b>Active Directory </b> 
+- <b>Splunk </b>
 
 
 
