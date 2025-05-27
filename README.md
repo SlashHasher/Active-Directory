@@ -31,95 +31,91 @@ This project simulates a real-world enterprise Active Directory environment buil
 
 
 <p align="center">
-Set up the profile inside the VM <br/>
+Choose and create VMs <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Set up the profile inside the VM <br/>
+Customize and Deploy VMs <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+Customize the firewall <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+Change Firewall Rules <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+RDP into AD VM <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+Add firewall rules to AD VM <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+Do the same for the other VMs <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+Enable VPC <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+SSH into the Ubuntu VM <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+ SSH successfull <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+ Add firewall and VPC to Ubuntu instance, which will disconnect us from SSH <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+ Ran into some trouble with networking <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+ Fixed Issue and now we can communicate between the VMs <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+ We can ping the Ubuntu but cant ping the AD VM, so we have to fix the networking there as well <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+ Perfect, now all the machines can communicate <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+RDP into the AD machine, and configure AD services <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+Creating new forest and promoting to Domain Controller <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+Installation <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+Signed Out, wait for restart <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+This VM is now the Active Directory Domain Controller <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+Creating a new user, Bob Builder <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
- Set up the profile inside the VM <br/>
+ Now we can add Bob into our AD <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -127,139 +123,184 @@ Set up the profile inside the VM <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+ Unfortunetly, there is an error, time to troubleshoot <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+ Since there is no DNS server selected, the machine couldnt reach the AD. Fixed by inputting the IP address of Domain Controller <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+Testing again after troubleshooting <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+It worked, now this user, Bob, is part of our active directory domain <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+Using the Console, we can successfully sign into Bob's accoumt <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+Adding Bbob to allow RDP connections, because they were off by default for security <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+ Trying to RDP into the VM using Bob's account <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+Now to install Splunk, we will connect to the Ubuntu VM <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+Connect to the machine using SSH, and download Splunk <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+Splunk Install is Completed <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+We cant connect to the Splunk Server yet. Time to troubleshoot again. <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+Allowed port 8000 on Ubuntu VM <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+That seemed to fix the issue <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+ We're Live on Splunk <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+Installing apps which we will need later for our Log analysis <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+Create a new Index, which I will title  z-ad <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+Add new receiving port, being 9997 <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+Download Splunk Forwarder on the test VM which will be the honeypot to generate logs <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+Setup the Forwarder and Indexing settings <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+Edit input config file and add our index <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+Restart the Splunk Forwarding Service <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+ Check on the Splunk Server for telemetry <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+ Now we will do the same setup on the AD Controller VM <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+Now on our Splunk Dashboard, we can see two hosts, which means out VMs are reporting correctly <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+ We can see successfull logons by refining our research <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+Changed the search to make it appear more concise and aesthetically pleasing <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+Save as an Alert <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+ Now we are getting alerts on the Triggered Alerts tab <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+ Now its time to setup Shuffle <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+ Creating our Workflow <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+ Add Shuffle Webhook to Splunk Alerts <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Set up the profile inside the VM <br/>
+ The alerts are now showing on Shuffle <br/>
 <img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- 
+Setup Slack <br/>
+<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Setup Slack <br/>
+<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Configure our alerts <br/>
+<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Alerts Working as Inteded <br/>
+<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Adding email feature to notify for alerts <br/>
+<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Verification of Successfull email notifications <br/>
+<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Add Active Directory to Shuffle to allow disabling of accounts with unauthorized access <br/>
+<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Workflow is all Done <br/>
+<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Alerts on Slack working as Intended <br/>
+<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Alerts on Splunk working as Inteded <br/>
+<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 <br />
 <br />
 <h2> ✅ Conclusion</h2>
-This lab provided hands-on experience with deploying and configuring a cloud-native SIEM using Microsoft Sentinel. By leveraging a honeypot VM to generate real-world telemetry, I was able to simulate attacker behavior, analyze security events using KQL, and build actionable detection rules. The project reinforced key concepts in cloud security monitoring, log analytics, and incident detection within modern enterprise environments.
+This project served as a comprehensive, real-world simulation of deploying and securing an enterprise-grade Active Directory environment in the cloud. From initial architecture planning to implementing automated security workflows, each phase contributed to a deeper understanding of Windows-based identity management, log monitoring, and incident response.
+
+By building the domain from scratch, integrating Splunk for centralized logging, and automating alert handling with Shuffle and Slack, I explored how large-scale organizations manage and secure their infrastructure. The process involved several technical challenges, including domain controller configuration issues, log forwarding misconfigurations, and automation setup problems. Solving these problems helped reinforce key skills in system administration, debugging, and integrating security tools.
+
+I plan to continue building on this lab by adding threat simulations, detection rules, and additional incident response playbooks. These additions will bring the environment even closer to the workflows used in real-world security operations centers.
+
+Thank you for viewing my work 🖤
 <br />
 
 
