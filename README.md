@@ -32,263 +32,255 @@ This project simulates a real-world enterprise Active Directory environment buil
 
 <p align="center">
 Choose and create VMs <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/GVCUGUn.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Customize and Deploy VMs <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/oeFnqBt.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Customize the firewall <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sCKaZSI.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Change Firewall Rules <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/l2LXebE.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 RDP into AD VM <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/bwb3kVs.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Add firewall rules to AD VM <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Whk5BI4.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Do the same for the other VMs <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/eoKqEjS.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Enable VPC <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VJ2Q1Cu.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 SSH into the Ubuntu VM <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tazksM9.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
  SSH successfull <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dfwkc5A.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
  Add firewall and VPC to Ubuntu instance, which will disconnect us from SSH <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ELgxHnH.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
  Ran into some trouble with networking <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wnU1D8J.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Fixed Issue and now we can communicate between the VMs <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ Fixed the issue <br/>
+<img src="https://i.imgur.com/mxBe74g.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
  We can ping the Ubuntu but cant ping the AD VM, so we have to fix the networking there as well <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XxQr2ip.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
  Perfect, now all the machines can communicate <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wrQr9yX.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 RDP into the AD machine, and configure AD services <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/9f1wmCA.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Creating new forest and promoting to Domain Controller <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3zM7Yvw.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Installation <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qX9pdzH.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Signed Out, wait for restart <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Ij9IjPb.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 This VM is now the Active Directory Domain Controller <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/31SrsvH.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Creating a new user, Bob Builder <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/x6EA3wf.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
  Now we can add Bob into our AD <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
- Set up the profile inside the VM <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PtGAvc8.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
  Unfortunetly, there is an error, time to troubleshoot <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/zJ8NIwh.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
  Since there is no DNS server selected, the machine couldnt reach the AD. Fixed by inputting the IP address of Domain Controller <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ab8ozMn.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Testing again after troubleshooting <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/An0cnNh.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 It worked, now this user, Bob, is part of our active directory domain <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/COntERp.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Using the Console, we can successfully sign into Bob's accoumt <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/QrOHtR6.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Adding Bbob to allow RDP connections, because they were off by default for security <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/EqLwNK5.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
  Trying to RDP into the VM using Bob's account <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jT6q6lR.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Now to install Splunk, we will connect to the Ubuntu VM <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/YUshSii.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Connect to the machine using SSH, and download Splunk <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/QLHuTGX.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Splunk Install is Completed <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/x3ranw6.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 We cant connect to the Splunk Server yet. Time to troubleshoot again. <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/1Rk15z3.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Allowed port 8000 on Ubuntu VM <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qMw0oSN.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 That seemed to fix the issue <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ucemabu.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
  We're Live on Splunk <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/1fom6dE.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Installing apps which we will need later for our Log analysis <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/29FIzRt.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Create a new Index, which I will title  z-ad <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/e24bmpd.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Add new receiving port, being 9997 <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/cpFZ8qs.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Download Splunk Forwarder on the test VM which will be the honeypot to generate logs <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/YRWfcz4.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Setup the Forwarder and Indexing settings <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/8zneauU.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Edit input config file and add our index <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Io51Y4J.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Restart the Splunk Forwarding Service <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/t8uCxjP.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
  Check on the Splunk Server for telemetry <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/1xAEXvC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
  Now we will do the same setup on the AD Controller VM <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FIXySD9.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Now on our Splunk Dashboard, we can see two hosts, which means out VMs are reporting correctly <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/zkfbtp4.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
  We can see successfull logons by refining our research <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/a0txtfu.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Changed the search to make it appear more concise and aesthetically pleasing <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wixMsDh.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Save as an Alert <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/P7DMAWx.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
  Now we are getting alerts on the Triggered Alerts tab <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/f2MAjKq.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
  Now its time to setup Shuffle <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/YdPwIj4.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
  Creating our Workflow <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/JZkMYgc.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
  Add Shuffle Webhook to Splunk Alerts <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BwiYnim.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
  The alerts are now showing on Shuffle <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/SQ5gfc8.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Setup Slack <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Setup Slack <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Khvojs6.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Configure our alerts <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/fp2GG6T.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Alerts Working as Inteded <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/yDCw0U8.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Adding email feature to notify for alerts <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5VeppFC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Verification of Successfull email notifications <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gMcxmEb.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Add Active Directory to Shuffle to allow disabling of accounts with unauthorized access <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BCt7idz.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Workflow is all Done <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/w1uChoM.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Alerts on Slack working as Intended <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ZdTTcLR.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Alerts on Splunk working as Inteded <br/>
-<img src="https://i.imgur.com/bE1mmgC.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Anc679O.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
