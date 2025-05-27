@@ -268,7 +268,7 @@ Verification of Successfull email notifications <br/>
 <br />
 <br />
 Add Active Directory to Shuffle to allow disabling of accounts with unauthorized access <br/>
-<img src="https://i.imgur.com/BCt7idz.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/1sUGTco.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Workflow is all Done <br/>
